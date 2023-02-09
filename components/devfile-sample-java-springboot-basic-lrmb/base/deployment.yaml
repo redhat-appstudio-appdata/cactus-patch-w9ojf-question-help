@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-java-springboot-basic-lrmb
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload:aronaldson-tenant-devfile-sample-java-springboot-basic-lrmb
+      - image: quay.io/redhat-appstudio/user-workload@sha256:bd3b0fda1b450fb401264387109438121612d4bcb15a5226ef991f0afc59189c
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
